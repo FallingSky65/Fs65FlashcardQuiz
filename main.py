@@ -16,6 +16,7 @@ def main(argv):
         return
     
     df = pandas.read_csv(targetFilePath)
+    print(df)
 
     
 if __name__ == "__main__":
